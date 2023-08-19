@@ -1,5 +1,6 @@
 # sickletypes
-A Reproducible Differential Proteomic Analysis of beta and alpha thalassemia: A Comparative Reanalysis of Disease-Specific Mechanisms and Pathways
+A Reproducible Differential Proteomic Analysis of beta and alpha thalassemia: A Comparative Reanalysis of Disease-Specific Mechanisms and Pathways.
+
 Objective:
 To perform a rigorous and repoducible comparative reanalysis of proteomics data from patients with alpha and beta thalassemis, aiming to validate and refine disease specific biomarkers and pathways previously identifid, while also uncovering potential novel insights.
 

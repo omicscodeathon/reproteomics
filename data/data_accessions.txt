@@ -1,0 +1,19 @@
+Data to be used in this project:
+
+1. IPX0005769000 (PXD039455)		
+Proteomics analysis of different subtypes of α-thalassemia carriers reveals novel biomarkers  
+Files: 53 (43.51GB)
+Submitters: Zhe Ren - renzhe@genomics.cn and Liang Lin - linl@genomics.cn
+Date published: 7/1/2023
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific)
+Description: The profile and target proteomic data acquired from DBS samples of different subtypes of α-thalassemia carriers and normal controls.
+  
+2. IPX0004189000 (PXD032179)
+Plasma proteome profiling combined with clinical and genetic features reveals pathophysiological characteristics of β-thalassemia
+Files: 74 (99.82GB)
+Submitters: Fuquan Yang - fqyang@ibp.ac.cn and Na Li - lina@ibp.ac.cn
+Date published:	4/28/2022
+Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific) coupled with an EASY-nLC 1000 HPLC system (Thermo Fisher Scientific)
+Description: The phenotype of β-thalassemia underlies multigene interactions, making clinical stratification complicated. An increasing number of genetic modifiers affecting the disease severity have been identified, but are still unable to meet the demand of precision diagnosis. Here, we systematically conducted a comparative plasma proteomic profiling on β-thalassemia patients and healthy controls. Plasma samples from 20 TM patients, 20 TI patients, and 20 healthy controls were used for the quantitative proteomic analysis. Among 246 dysregulated proteins, 13 core protein signatures with excellent biomarker potential are proposed. The combination of proteome and patients' clinical data revealed patients with codons 41/42 -TTCT mutations have an elevated risk of higher iron burden, dysplasia, and osteoporosis than patients with other genotypes. Notably, 85 proteins correlating to fetal hemoglobin (Hb F) were identified, among which the abundance of 27 proteins may affect the transfusion burden in β-thalassemia patients. The current study thus provides protein signatures as potential diagnostic biomarkers or therapeutic clues for β-thalassemia.
+
+  

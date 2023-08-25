@@ -1,2 +1,19 @@
 Here are the links for some papers being used for this project:
-https://
+
+DATA:
+1. https://pubs.acs.org/doi/10.1021/acs.analchem.3c00895 - α-Thalassemia
+2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8976145/ - β-thalassemia
+
+METHODS:
+
+DATA-PROCESSING
+1. https://www-nature-com.ez.sun.ac.za/articles/nbt.3109 - PeptideShaker
+2. https://pubmed.ncbi.nlm.nih.gov/29774740/ and https://pubmed-ncbi-nlm-nih-gov.ez.sun.ac.za/21337703/ - SearchGUI
+3. https://pubmed.ncbi.nlm.nih.gov/31755270/ - ThermoRawFileParser
+4. https://www.nature.com/articles/s41587-020-0439-x - nf-core
+5. https://docs.quantms.org/_/downloads/en/latest/pdf/ - nf-core/quantms
+
+RESULTS ANALYSIS
+1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2783335/  and https://www.nature.com/articles/s41598-020-66986-8 - ssGSEA
+2. https://www.nature.com/articles/ng0500_25 and https://academic.oup.com/genetics/article/224/1/iyad031/7068118?login=true - Gene ontology
+3. https://academic.oup.com/nar/article/46/W1/W296/5000024 - SWISS-MODEL

@@ -1,0 +1,15 @@
+1. nf-core/quantms - protein identification and quantification
+
+2. SearchGUI - protein search engine
+
+3. PeptideShaker - protein identification and visualization
+
+4. ssGSEA - single sample gene set enrichment analysis
+
+5. gProfiler - gene ontology functional enrichment
+
+6. STRING - Protein-protein interactions
+
+7. SWISS-MODEL - Homology modelling
+
+8. PyMOL - protein/peptide visualization

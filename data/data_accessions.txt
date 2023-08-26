@@ -16,4 +16,15 @@ Date published:	4/28/2022
 Instrument: Q Exactive mass spectrometer (Thermo Fisher Scientific) coupled with an EASY-nLC 1000 HPLC system (Thermo Fisher Scientific)
 Description: The phenotype of β-thalassemia underlies multigene interactions, making clinical stratification complicated. An increasing number of genetic modifiers affecting the disease severity have been identified, but are still unable to meet the demand of precision diagnosis. Here, we systematically conducted a comparative plasma proteomic profiling on β-thalassemia patients and healthy controls. Plasma samples from 20 TM patients, 20 TI patients, and 20 healthy controls were used for the quantitative proteomic analysis. Among 246 dysregulated proteins, 13 core protein signatures with excellent biomarker potential are proposed. The combination of proteome and patients' clinical data revealed patients with codons 41/42 -TTCT mutations have an elevated risk of higher iron burden, dysplasia, and osteoporosis than patients with other genotypes. Notably, 85 proteins correlating to fetal hemoglobin (Hb F) were identified, among which the abundance of 27 proteins may affect the transfusion burden in β-thalassemia patients. The current study thus provides protein signatures as potential diagnostic biomarkers or therapeutic clues for β-thalassemia.
 
+ANALYSIS:
+Human reference proteome - UniProt:
+1. https://rest.uniprot.org/uniprotkb/stream?compressed=true&format=fasta&includeIsoform=true&query=%28%28proteome%3AUP000005640%29%29
+
+cRAP contaminant database:
+1. http://ftp.thegpm.org/fasta/crap/crap.fasta
+
+GSEA gmt dataset for ssGSEA:
+1. https://www.gsea-msigdb.org/gsea/msigdb/human/geneset/HP_HYPOCHROMIC_MICROCYTIC_ANEMIA.html
+
+
   

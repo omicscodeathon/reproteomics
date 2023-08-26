@@ -4,15 +4,16 @@ import time
 # Replace with your SWISS-MODEL token
 token = "MY_SWISS_MODEL_API_TOKEN"
 
-# Function to perform homology modeling
-def perform_homology_modeling(target_sequences, template_sequence):
-    # Start a new job for homology modeling
+# Function to perform homology modeling with user template
+def perform_user_template_homology_modeling(target_sequences, template_coordinates):
+    # Start a new job for user template homology modelling
     response = requests.post(
-        "https://swissmodel.expasy.org/automodel",
+        "https://swissmodel.expasy.org/user_template",
         headers={ "Authorization": f"Token {token}" },
-        json={ 
+        json={
             "target_sequences": target_sequences,
-            "project_title": "Homology Modeling Example"
+            "template_coordinates": template_coordinates,
+            "project_title": "Thalassemia"
         })
 
     # Check status code
@@ -45,12 +46,15 @@ def perform_homology_modeling(target_sequences, template_sequence):
     else:
         print("Modeling job failed.")
 
-# Example target and template sequences
+# Example target sequences and template coordinates
 target_sequences = [
-    "AMINI_ACID_SEQUENCE",
     "AMINO_ACID_SEQUENCE"
 ]
-template_sequence = "AMINO_ACID_SEQUENCE"
 
-# Perform homology modeling
-perform_homology_modeling(target_sequences, template_sequence)
+# Load template coordinates from file
+# Must have pdb file downloaded already
+with open("sample.pdb") as f:
+    template_coordinates = f.read()
+
+# Perform user template homology modeling
+perform_user_template_homology_modeling(target_sequences, template_coordinates)

@@ -1,13 +1,17 @@
 Omics Codeathon Project Cycle (+ Timelines):
 
-				2. Work on Building the Pipeline (by Aug 15, 2023)
+1. Decide on the topic and objectives (12 September 2023)
+2. Do a literature search on PubMed for relevant articles (14-18 September 2023)
+3. Write methods (14-18 September 2023)
+4. Identify relevant and establish proteomics tools (15 - 18 September 2023)
+5. Write introduction (18 September 2023)
+6. Write abstract (20 September 2023)
+7. Write main body of article (20 September - 28 September)
+8. Start working on poster (20 September 2023 - 30 September 2023)
+9. Start working on PowerPoint (20 September - 28 September 2023)
+10. Submit poster (3 October 2023)
+11. Submit PowerPoint and video (5 October 2023)
+12. Present poster and PowerPoint (7 October 2023)
+13. Submit final codeathon work (10 October 2023)
+14. Present codeathon work (21 - 25 October 2023)
 
-                  1. Decide on datasets (by Aug 01, 2023)       3. Finish Building Pipeline (by Aug 29, 2023)
-
-                10. Upgrade                     4. Test and Benchmark against related work (by Sep 12, 2023)
-
-                9. Manage                        5. Submit final methods; Compare findings with related work (by Sep 12, 2023)
-
-                  8. Publish                   6. Submit Manuscript (by Oct 10, 2023)
-
-			  7. Reviewer Comments

@@ -1,8 +1,12 @@
-# sickletypes
-A Reproducible Differential Proteomic Analysis of beta and alpha thalassemia: A Comparative Reanalysis of Disease-Specific Mechanisms and Pathways.
+# Reproducible proteomics
+The lack of reproducible science in proteomics analyses – a bioinformatics perspective
 
-Objective:
-To perform a rigorous and repoducible comparative reanalysis of proteomics data from patients with alpha and beta thalassemis, aiming to validate and refine disease specific biomarkers and pathways previously identifid, while also uncovering potential novel insights.
+Objective and aims:
+The objective of this literature review is to critically examine the challenges associated with the complexity and variability of biological samples in proteomics analyses. Specifically, it aims to:
+* Assess the extent and impact of inherent proteomics data analysis heterogeneity.
+* Evaluate the role of non-standardized protocols and data analysis pipelines in contributing to the lack of reproducibility in proteomics research.
+* Investigate the proposed solution of establishing community-wide efforts to develop standardized protocols and guidelines for data analysis in proteomics, with a focus on its feasibility, effectiveness, and adoption within the scientific community.
+* Develop a recommended scoring system for reproducible proteomics frameworks.
+By addressing these objectives, this literature review seeks to provide a comprehensive overview of the challenges and potential solutions related to reproducibility in proteomics research, offering insights into the current state of the field and avenues for improvement.
 
-Draft of the pipeline
-![IMG-20230818-WA0008](https://github.com/omicscodeathon/sickletypes/assets/111356936/d0f879d1-0b70-4334-bf0a-475c8b7a53fd)
+

@@ -1,11 +1,58 @@
-Steps: [Convert the steps into workflow diagram (include tools for each step) and update README.md]
-. Pull down the reads
-.
-.
-.
-.
-.
-.
-.
-.
-.
+Steps: [Convert the steps into a workflow diagram (include tools for each step) and update README.md]
+
+A. Literature search
+
+To answer the proposed research question, we started by conducting a literature search to identify potentially relevant articles on the topic of reproducible proteomics analysis.
+
+This search was conducted on PubMed using the following search criteria and filters:
+
+1.   	Basic Keyword Search:
+
+(Bioinformatics OR Proteomics OR Mass Spectrometry) AND (Reproducible OR Workflow management systems OR Standardized OR Pipeline OR Protein informatics OR Proteomic analysis)
+
+2.   	Focused on Reproducibility:
+
+(Proteomics OR Mass Spectrometry) AND Reproducible
+
+3.   	Emphasizing Bioinformatics:
+
+Bioinformatics AND (Proteomics OR Mass Spectrometry OR Protein informatics)
+
+4.   	Workflow and Standardization:
+
+(Workflow management systems OR Standardized OR Pipeline) AND Proteomics
+
+Articles were also excluded if they mentioned certain terms as they did not form the focus of this review. Disease-specific articles were removed since we wanted to focus on the informatics aspect as opposed to the clinical aspect. It was decided that the basic keyword search was too general and was therefore excluded. Focus was given to the queries focused on bioinformatics, reproducibility, workflow and standardization as these formed the main focus of this review.
+
+Articles with the following words in the titles were removed. These articles were not further investigated since they were not in the scope of this review:
+·       Single-cell
+·       RNA
+·       Genetic
+·       Gene
+·       Genomic
+·       Metabolomic
+
+Next, we wanted to focus on specifically proteomic articles; therefore, articles with the following titles were extracted.
+·       Protein
+·       Proteomic
+·       Proteins
+·       Proteome
+·       Proteomics
+·       Mass spectrometry
+·       MS/MS
+Finally, we extracted articles with the following keywords as they formed the focus of this review. These are the articles that were further investigated:
+·       Reproducible
+·       Reproducibility
+·       Workflow
+·       Pipeline
+·       Standard
+·       Standardized
+·       Bioinformatics
+·       Bioinformatic
+·       Tool
+·       Computational
+·       Computation
+
+B. Creation of a reproducibility scoring system based on literature
+
+

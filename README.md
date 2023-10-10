@@ -2,7 +2,7 @@
 The lack of reproducible science in proteomics analyses – a bioinformatics perspective
 
 Objective and aims:
-The objective of this literature review is to critically examine the challenges associated with the complexity and variability of biological samples in proteomics analyses. Specifically, it aims to:
+The objective of this literature review is to critically examine the challenges associated with the complexity and variability of available frameworks in proteomics analyses. Specifically, it aims to:
 * Assess the extent and impact of inherent proteomics data analysis heterogeneity.
 * Evaluate the role of non-standardized protocols and data analysis pipelines in contributing to the lack of reproducibility in proteomics research.
 * Investigate the proposed solution of establishing community-wide efforts to develop standardized protocols and guidelines for data analysis in proteomics, with a focus on its feasibility, effectiveness, and adoption within the scientific community.

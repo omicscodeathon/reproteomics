@@ -1,19 +1,186 @@
-Here are the links for some papers being used for this project:
+1.	Adali, T., Guido, R. C., Ho, T. K., Müller, K. R., & Strother, S. (2022). Interpretability, reproducibility, and replicability [from the guest editors]. IEEE Signal Processing Magazine, 39(4), 5-7.
+2.	Afzaal, M., Saeed, F., Hussain, M., Shahid, F., Siddeeg, A., & Al‐Farga, A. (2022). Proteomics as a promising biomarker in food authentication, quality and safety: A review. Food Science & Nutrition, 10(7), 2333-2346.
+3.	Agnetti, G., Kane, LA., Guarnieri, C., Caldarera, CM., & Van Eyk, JE. (2007). Proteomic technologies in the study of kinases: novel tools for the investigation of PKC in the heart. Pharmacol Res, 55, 511–522. [PMC free article] [PubMed]
+4.	Agrawal, G. K., Sarkar, A., Righetti, PG., Pedreschi, R., Carpentier, S., Wang, T.,... Rakwal, R. (2013). A decade of plant proteomics and mass spectrometry: translation of technical advancements to food security and safety issues. Mass Spectrom Rev, 32, 335–365. [PubMed]
+5.	Al-Amrani, S., Al-Jabri, Z., Al-Zaabi, A., Alshekaili, J., & Al-Khabori, M. (2021). Proteomics: Concepts and applications in human medicine. World Journal of Biological Chemistry, 12(5), 57.
+6.	Alexeyenko, A., & Sonnhammer, E. L. (2009). Global networks of functional coupling in eukaryotes from comprehensive data integration. Genome Research, 19(6), 1107-1116.
+7.	Altelaar, AFM., & Heck, AJR. (2012). Trends in ultrasensitive proteomics. Current Opinion in Chemical Biology, 16(1-2), 206-213.
+8.	An, Z., Zhai, L., Ying, W., Qian, X., Gong, F., Tan, M., & Fu, Y. (2019). PTMiner: Localization and Quality Control of Protein Modifications Detected in an Open Search and Its Application to Comprehensive Post-translational Modification Characterization in Human Proteome[S]. Molecular & Cellular Proteomics, 18(2), 391-405.
+9.	Aranda, B., Blankenburg, H., Kerrien, S., Brinkman, F. S., Ceol, A., Chautard, E., ... & Hermjakob, H. (2011). PSICQUIC and PSISCORE: accessing and scoring molecular interactions. Nature Methods, 8(7), 528-529.
+10.	Arntzen, M. Ø., Koehler, C. J., Barsnes, H., Berven, F. S., Treumann, A., & Thiede, B. (2011). IsobariQ: software for isobaric quantitative proteomics using IPTL, iTRAQ, and TMT. Journal of Proteome Research, 10(2), 913–920.
+11.	Tabb, D. L., Vega-Montoto, L., Rudnick, P. A., Variyath, A. M., Ham, A. J. L., Bunk, D. M., ... & Spiegelman, C. (2010). Repeatability and reproducibility in proteomic identifications by liquid chromatography− tandem mass spectrometry. Journal of proteome research, 9(2), 761-776.
+12.	Chandramouli, K., & Qian, P. Y. (2009). Proteomics: challenges, techniques and possibilities to overcome biological sample complexity. Human genomics and proteomics: HGP, 2009.
+13.	Poulos, R. C., Hains, P. G., Shah, R., Lucas, N., Xavier, D., Manda, S. S., ... & Zhong, Q. (2020). Strategies to enable large-scale proteomics for reproducible research. Nature communications, 11(1), 3793.
+14.	Pursiheimo, A., Vehmas, A. P., Afzal, S., Suomi, T., Chand, T., Strauss, L., ... & Elo, L. L. (2015). Optimization of statistical methods impact on quantitative proteomics data. Journal of proteome research, 14(10), 4118-4126.
+15.	Bai, J., Bandla, C., Guo, J., Vera Alvarez, R., Bai, M., Vizcaíno, J. A.,... Perez-Riverol, Y. (2021). BioContainers Registry: Searching Bioinformatics and Proteomics Tools, Packages, and Containers. Journal of Proteome Research, 20(4), 2056–2061.
+16.	Baker, P. R., & Chalkley, R. J. (2014). MS-viewer: a web-based spectral viewer for proteomics results. Molecular & Cellular Proteomics, 13(5), 1392-1396.
+17.	Barba, L. A. (2018). Terminologies for Reproducible Research. arXiv. http://arxiv.org/abs/1802.03311
+18.	Barsnes, H., & Vaudel, M. (2018). SearchGUI: a highly adaptable common interface for proteomics search and de novo engines. Journal of Proteome Research, 17(7), 2552-2555.
+19.	Begley, C. G., & Ioannidis, J. P. (2015). Reproducibility in science: improving the standard for basic and preclinical research. Circulation Research, 116(1), 116-126.
+20.	Dunphy K, Dowling P, Bazou D, O'Gorman P. Current Methods of Post-Translational Modification Analysis and Their Applications in Blood Cancers. Cancers (Basel). 2021 Apr 16;13(8):1930. doi: 10.3390/cancers13081930. PMID: 33923680; PMCID: PMC8072572.
+21.	Bennetzen, M. V., Cox, J., Mann, M., & Andersen, J. S. (2012). PhosphoSiteAnalyzer: a bioinformatic platform for deciphering phospho proteomes using kinase predictions retrieved from NetworKIN. Journal of Proteome Research, 11(6), 3480-3486.
+22.	Bern, M., Kil YJ, & Becker, C. (2012). Byonic: advanced peptide and protein identification software. Current Protocols in Bioinformatics, 13.20.1-13.20.14.
+23.	Parker CE, Mocanu V, Mocanu M, et al. Mass Spectrometry for Post-Translational Modifications. In: Alzate O, editor. Neuroproteomics. Boca Raton (FL): CRC Press/Taylor & Francis; 2010.Chapter6.Availablefrom: https://www.ncbi.nlm.nih.gov/books/NBK56012/
+24.	Bernhardt, O. M., Selevsek, N., Gillet, L. C., Rinner, O., Picotti, P., Aebersold, R., & Reiter, L. (2012). Spectronaut: a fast and efficient algorithm for MRM-like processing of data independent acquisition (SWATH-MS) data. Biognosys. ch.
+25.	Mann, M., Jensen, O. Proteomic analysis of post-translational modifications. Nat Biotechnol 21,255–261(2003). https://doi.org/10.1038/nbt0303-255
+26.	Bjornson, R. D., Carriero, N. J., Colangelo, C., Shifman, M., Cheung, K. H., Miller, P. L., & Williams, K. (2008). X!! Tandem, an improved method for running X! tandem in parallel on collections of commodity computers. The Journal of Proteome Research, 7(1), 293-299.
+27.	Bodenmiller, B., Malmstrom, J., Gerrits, B., Campbell, D., Lam, H., Schmidt, A.,... Aebersold, R. (2007). PhosphoPep--a phosphoproteome resource for systems biology research in Drosophila Kc167 cells. Molecular Systems Biology, 3, 139.
+28.	Boulesteix, A. L., Stierle, V., & Hapfelmeier, A. (2015). Publication Bias in Methodological Computational Research. Cancer Informatics, 14(Suppl 5), 11-19.
+29.	Brain, K., & Philip, B. (2019). Advances in protein structure prediction and design: Nature Reviews Molecular Cell Biology, 20, 681-697.
+30.	Brito, J. J., Li, J., Moore, J. H., Greene, C. S., Nogoy, N. A., Garmire, L. X., & Mangul, S. (2020). Recommendations to enhance rigour and reproducibility in biomedical research. GigaScience, 9(6).
+31.	Calderone, A., Castagnoli, L., & Cesareni, G. (2013). Mentha: a resource for browsing integrated protein-interaction networks. Nature Methods, 10(8), 690-691.
+32.	Cappadona, S., Baker, P. R., Cutillas, P. R., Heck, A. J. R., & Van Breukelen, B. (2012). Current challenges in software solutions for mass spectrometry-based quantitative proteomics. Amino Acids, 43(3), 1087–1108.
+33.	Chalkley, R.J., Bandeira, N., Chambers, M.C., Dasari, S., Deutsch, E.W., Kapp, E.A.M., ... & Weintraub, S.T. (2013). iPRG 2013: Using RNA-Seq data for Peptide and Protein Identification. ABRF Poster 2013.
+34.	Chambers, M.C., Maclean, B., Burke, R., Amodei, D., Ruderman, D.L., Neumann, S., ... & Mallick, P. (2012). A cross-platform toolkit for mass spectrometry and proteomics. Nature Biotechnology, 30(10), 918–920. https://doi.org/10.1038/nbt.2377
+35.	Chandramouli, K., & Qian, P.-Y. (2009). Proteomics: Challenges, Techniques and Possibilities to Overcome Biological Sample Complexity. Human Genomics and Proteomics: HGP, 2009(1). https://doi.org/10.4061/2009/239204
+36.	Chatraryamontri, A., Ceol, A., Montecchi Palazzi, L., Nardelli, G., Schneider, M.V., Castagnoli, L., & Cesareni, G. (2007). MINT: the Molecular INTeraction database. Nucleic Acids Research, 35 (Database), D572-D574. https://doi.org/10.1093/nar/gkl950
+37.	Chaudhury, S., Lyskov, S., & Gray, J.J. (2010). PyRosetta: a script-based interface for implementing molecular modeling algorithms using Rosetta. Bioinformatics, 26(5), 689-691.
+38.	Chen, X., Wong, Y.K., Wang, J., Zhang, J., Lee, Y.M., Shen, H.M., ... & Hua, Z.C. (2017). Target identification with quantitative activity-based protein profiling (ABPP). Proteomics, 17(3-4), 1600212.
+39.	Choi, H., Larsen, B., Lin, Z.Y., Breitkreutz, A., Mellacheruvu, D., Fermin, D., ... & Nesvizhskii, A.I. (2011). SAINT: probabilistic scoring of affinity purification–mass spectrometry data. Nature Methods, 8(1), 70-73.
+40.	Choi, M., Chang, C.Y., Clough, T., Broudy, D., Killeen, T., MacLean, B., & Vitek, O. (2014). MSstats: an R package for statistical analysis of quantitative mass spectrometry-based proteomic experiments. Bioinformatics, 30(17), 2524-2526.
+41.	Chou, M.F., & Schwartz, D. (2011). Biological sequence motif discovery using motif‐x. Current Protocols in Bioinformatics, 35(1), 13-15.
+42.	Cox, J., & Mann, M. (2008). MaxQuant enables high peptide identification rates, individualized ppb-range mass accuracies and proteome-wide protein quantification. Nature Biotechnology, 26(12), 1367-1372.
+43.	Cox, J., Neuhauser, N., Michalski, A., Scheltema, R.A., Olsen, J.V., & Mann, M. (2011). Andromeda: a peptide search engine integrated into the MaxQuant environment. Journal of Proteome Research, 10(4), 1794-1805.
 
-DATA:
-1. https://pubs.acs.org/doi/10.1021/acs.analchem.3c00895 - α-Thalassemia
-2. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8976145/ - β-thalassemia
-
-METHODS:
-
-DATA-PROCESSING
-1. https://www-nature-com.ez.sun.ac.za/articles/nbt.3109 - PeptideShaker
-2. https://pubmed.ncbi.nlm.nih.gov/29774740/ and https://pubmed-ncbi-nlm-nih-gov.ez.sun.ac.za/21337703/ - SearchGUI
-3. https://pubmed.ncbi.nlm.nih.gov/31755270/ - ThermoRawFileParser
-4. https://www.nature.com/articles/s41587-020-0439-x - nf-core
-5. https://docs.quantms.org/_/downloads/en/latest/pdf/ - nf-core/quantms
-
-RESULTS ANALYSIS
-1. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2783335/  and https://www.nature.com/articles/s41598-020-66986-8 - ssGSEA
-2. https://www.nature.com/articles/ng0500_25 and https://academic.oup.com/genetics/article/224/1/iyad031/7068118?login=true - Gene ontology
-3. https://academic.oup.com/nar/article/46/W1/W296/5000024 - SWISS-MODEL
+44.	Cutler, P. (2003). Protein arrays: the current state-of-the-art. Proteomics, 3, 3–18.
+45.	De Lano, W.L. (2002). Pymol: An open-source molecular graphics tool. CCP4 Newsl. Protein Crystallogr, 40(1), 82-92.
+46.	Deng, N., Li, Z., Pan, C., & Duan, H. (2015). freeQuant: a mass spectrometry label-free quantification software tool for complex proteome analysis. The Scientific World Journal, 2015.
+47.	Dequan Li, Yan Fu, Ruixiang Sun, Charles X. Ling, Yonggang Wei, Hu Zhou, Rong Zeng, Qiang Yang, Simin He, Wen Gao, (2005). pFind: a novel database-searching software system for automated peptide and protein identification via tandem mass spectrometry. Bioinformatics, 21(13), 3049–3050. https://doi.org/10.1093/bioinformatics/bti439
+48.	Desiere, F., Deutsch, E.W., Nesvizhskii, A.I., Mallick, P., King, N.L., Eng, J.K., ... & Boyle, R. (2004). Integration with the human genome of peptide sequences obtained by high-throughput mass spectrometry. Genome Biology, 6.
+49.	Diaba-Nuhoho, P., & Amponsah-Offeh, M. (2021). Reproducibility and research integrity: the role of scientists and institutions. BMC Research Notes, 14(1), 1-4.
+50.	Dickersin, K. (1990). The existence of publication bias and risk factors for its occurrence. Jama, 263(10), 1385-1389.
+51.	Djaffardjy, M., Marchment, G., Sebe, C., Blanchet, R., Belhajjame, K., Gaignard, A., Lemoine, F., & Cohen-Boulakia, S. (2023). Developing and reusing bioinformatics data analysis pipelines using scientific workflow systems. Computational and Structural Biotechnology Journal, 21, 2075–2085.
+52.	Domon, B., & Aebersold, R. (2006). Challenges and opportunities in proteomics data analysis. Molecular & Cellular Proteomics, 5(10), 1921-1926.
+53.	Duarte, T.T., & Spencer, C.T. (2016). Personalized proteomics: the future of precision medicine. Proteomes, 4(4), 29.
+54.	Eng, J.K., Jahan, T.A., & Hoopmann, M.R. (2013). Comet: an open‐source MS/MS sequence database search tool. Proteomics, 13(1), 22-24.
+55.	Eng, J.K., King, N., Stein, S.E., & Aebersold, R. (2007). Development and validation of a spectral library searching method for peptide identification from MS/MS. Proteomics, 7(5), 655-67.
+56.	Eng, J.K., McCormack, A.L., & Yates, J.R. (1994). An approach to correlate tandem mass spectral data of peptides with amino acid sequences in a protein database. Journal of the American Society for Mass Spectrometry, 5(11), 976-989. https://doi.org/10.1016/1044-0305(94)80016-2
+57.	Falkner, J.A., Ulintz, P.J., & Andrews, P.C. (2006). A Code and Data Archival and Dissemination Tool for the Proteomics Community. American Biotechnology Laboratory.
+58.	Feig, M., Karanicolas, J., & Brooks III, C.L. (2004). MMTSB Tool Set: enhanced sampling and multiscale modeling methods for applications in structural biology. Journal of Molecular Graphics and Modelling, 22(5), 377-395.
+59.	Florens, L., & Washburn, M.P. (2006). Proteomic analysis by multidimensional protein identification technology. Methods Mol Biol, 328, 159–175.
+60.	Forshed, J., Johansson, H.J., Pernemalm, M., Branca, R.M., Sandberg, A., & Lehtiö, J. (2011). Enhanced information output from shotgun proteomics data by protein quantification and peptide quality control (PQPQ). Molecular & Cellular Proteomics, 10(10).
+61.	Gardner, P.P., Paterson, J.M., McGimpsey, S., Ashari-Ghomi, F., Umu, S.U., Pawlik, A., ... & Black, M.A. (2022). Sustained software development, not number of citations or journal choice, is indicative of accurate bioinformatic software. Genome Biology, 23(1), 1-13.
+62.	Geer, L.Y., Markey, S.P., Kowalak, J.A., Wagner, L., Xu, M., Maynard, D.M., ... & Bryant, S.H. (2004). Open mass spectrometry search algorithm. Journal of Proteome Research, 3(5), 958-964.
+63.	George, E., Liacouras, P., Rybicki, F.J., & Mitsouras, D. (2017). Measuring and establishing the accuracy and reproducibility of 3D printed medical models. Radiographics, 37(5), 1424-1450.
+64.	Gocheva, V., Naba, A., Bhutkar, A., Guardia, T., Miller, K.M., Li, C.M.C., ... & Jacks, T. (2017). Quantitative proteomics identify Tenascin-C as a promoter of lung cancer progression and contributor to a signature prognostic of patient survival. Proceedings of the National Academy of Sciences, 114(28), E5625-E5634.
+65.	Graumann, J., Scheltema, R.A., Zhang, Y., Cox, J., & Mann, M. (2012). A Framework for Intelligent Data Acquisition and Real-Time Database Searching for Shotgun Proteomics. Molecular & Cellular Proteomics, 11(3).
+66.	Graves, P.R., & Haystead, T.A. (2002). Molecular biologist's guide to proteomics. Microbiol Mol Biol Rev, 66, 39–63; table of contents.
+67.	Guex, N. (1996). Swiss-PdbViewer: A new fast and easy-to-use PDB viewer for the Macintosh. Experientia, 52, A26.
+68.	Guo, Z., Hou, J., & Cheng, J. (2021). DNSS2: Improved ab initio protein secondary structure prediction using advanced deep learning architectures. Proteins, 89(2), 207-217.
+69.	He, L., Diedrich, J., Chu, Y.Y., & Yates III, J.R. (2015). Extracting accurate precursor information for tandem mass spectra by RawConverter. Analytical chemistry, 87(22), 11361-11367.
+70.	Hein, M.Y., Sharma, K., Cox, J., & Mann, M. (2013). Proteomic Analysis of Cellular Systems. In Handbook of Systems Biology (pp. 3-25). San Diego: Academic Press.
+71.	Hermjakob, H., Montecchi-Palazzi, L., Lewington, C., Mudali, S., Kerrien, S., Orchard, S., ... & Apweiler, R. (2004). IntAct: an open-source molecular interaction database. Nucleic Acids Research, 32(suppl_1), D452-D45.
+72.	Heumüller, R., Nielebock, S., Krüger, J., & Ortmeier, F. (2020). Publish or perish, but do not forget your software artefacts. Empirical Software Engineering, 25(6), 4585–4616.
+73.	Hirsch, C., & Schildknecht, S. (2019). In vitro research reproducibility: Keeping up high standards. Frontiers in pharmacology, 10, 1484.
+74.	Holman, J. D., Dasari, S., & Tabb, D. L. (2013). Informatics of protein and posttranslational modification detection via shotgun proteomics. Methods Mol Biol, 1002, 167–179. [PMC free article] [PubMed]
+75.	Hoopmann, M.R., & Moritz, R.L. (2013). Current algorithmic solutions for peptide-based proteomics data generation and identification. Current Opinion in Biotechnology, 24(1), 31-38.
+76.	Humphrey, W., Dalke, A., & Schulten, K. (1996). VMD: visual molecular dynamics. Journal of molecular graphics, 14(1), 33-38.
+77.	Jarnuczak, A.F., Ternent, T., & Vizcaíno, J.A. (2019). Quantitative Proteomics Data in the Public Domain: Challenges and Opportunities. Methods Mol Biol, 1977, 217-235.
+78.	Jelizarow, M., Guillemot, V., Tenenhaus, A., Strimmer, K., & Boulesteix, A.L. (2010). Over-optimism in bioinformatics: an illustration. Bioinformatics, 26(16), 1990-1998.
+79.	Johnson, H., & Eyers, C. (2010). Analysis of Post-translational Modifications by LC-MS/MS. In LC-MS/MS in Proteomics (pp. 93-108). Humana Press.
+80.	K., Lariviere, V., Beygelzimer, A., d’Alche-Buc, F., Fox, E., & Larochelle, H. (2021). Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program). Journal of Machine Learning Research: JMLR, 22(164), 1–20.
+81.	Kalli, A., Smith, G.T., Sweredoski, M.J., & Hess, S. (2013). Evaluation and Optimization of Mass Spectrometric Settings during Data-Dependent Acquisition Mode: Focus on LTQ-Orbitrap Mass Analyzers. J Proteome Res, 12.
+82.	Keefe, C.R., Dillon, M.R., Herman, C., Jewell, M., Wood, C.V., Bolyen, E., & Caporaso, J.G. (2023). Facilitating Bioinformatics Reproducibility. arXiv e-prints, arXiv-2305.
+83.	Keller, A., Eng, J., Zhang, N., Li, X.J., & Aebersold, R. (2005). A uniform proteomics MS. MS analysis platform utilizing open XML file formats, 1.
+84.	Kessner, D., Chambers, M., Burke, R., Agus, D., & Mallick, P. (2008). ProteoWizard: open source software for rapid proteomics tools development. Bioinformatics, 24(21), 2534-2536.
+85.	Kulkarni, N., Alessandrì, L., Panero, R., Arigoni, M., Olivero, M., Ferrero, G., ... & Calogero, R.A. (2018). Reproducible bioinformatics project: a community for reproducible bioinformatics analysis pipelines. BMC Bioinformatics, 19(Suppl 10), 349.
+86.	Kumar, C., & Mann, M. (2009). Bioinformatics analysis of mass spectrometry-based proteomics data sets. FEBS Letters, 583(11), 1703-1712.
+87.	Kuzniar, A., & Kanaar, R. (2014). PIQMIe: a web server for semi-quantitative proteomics data management and analysis. Nucleic Acids Research, 42(Web Server issue), W100–W106.
+88.	Kwon, S., Won, J., Kryshtafovych, A., & Seok, C. (2021). Assessment of protein model structure accuracy estimation in CASP14: Old and new challenges. Proteins, 89(12), 1940-1948.
+89.	Lam, H. (2011). Building and Searching Tandem Mass Spectral Libraries for Peptide Identification. Molecular & Cellular Proteomics, 10(12).
+90.	Lam, H., Deutsch, E.W., Eddes, J.S.,
+91.	Lawlor, B., & Sleator, R.D. (2020). The democratization of bioinformatics: A software engineering perspective. GigaScience, 9(6).
+92.	Lee, Y.H., Tan, H.T., & Chung, M.C.M. (2010). Subcellular fractionation methods and strategies for proteomics. Proteomics, 10(22), 3935-3956.
+93.	Leipzig, J., Nüst, D., Hoyt, C.T., Ram, K., & Greenberg, J. (2021). The role of metadata in reproducible computational research. Patterns (New York, N.Y.), 2(9).
+94.	Li, X., Wang, W., & Chen, J. (2017). Recent progress in mass spectrometry proteomics for biomedical research. Sci China Life Sci, 60(10), 1093-1113.
+95.	Li, X.J., Zhang, H., Ranish, J.A., & Aebersold, R. (2003). Automated statistical analysis of protein abundance ratios from data generated by stable-isotope dilution and tandem mass spectrometry. Analytical chemistry, 75(23), 6648-6657.
+96.	Liao, Z., Wan, Y., Thomas, S.N., & Yang, A.J. (2012). IsoQuant: a software tool for stable isotope labeling by amino acids in cell culture-based mass spectrometry quantitation. Analytical chemistry, 84(10), 4535-4543.
+97.	Liu, H., Sadygov, R.G., & Yates, J.R. (2004). A Model for Random Sampling and Estimation of Relative Protein Abundance in Shotgun Proteomics. Anal Chem, 76 (14), 4193-4201.
+98.	Low, T.Y., van Heesch, S., van den Toorn, H., Giansanti, P., Cristobal, A., Toonen, P., Schafer, S., Hübner, N., van Breukelen, B., Mohammed, S., Cuppen, E., Heck, A.J., & Guryev, V. (2013). Quantitative and qualitative proteome characteristics extracted from in-depth integrated genomics and proteomics analysis. Cell Rep, 5, 1469–1478.
+99.	Ma, Z.Q., Polzin, K.O., Dasari, S., Chambers, M.C., Schilling, B., Gibson, B.W., ... & Tabb, D.L. (2012). QuaMeter: multivendor performance metrics for LC–MS/MS proteomics instrumentation. Analytical chemistry, 84(14), 5845-5850.
+100.	MacCoss, M.J., Wu, C.C., Liu, H., Sadygov, R., & Yates, J.R., 3rd (2003). A correlation algorithm for the automated quantitative analysis of shotgun proteomics data. Analytical chemistry, 75(24), 6912–6921.
+101.	MacLean, B., Tomazela, D.M., Shulman, N., Chambers, M., Finney, G.L., Frewen, B., Kern, R., Tabb, D.L., Liebler, D.C., & MacCoss, M.J. (2010). Skyline: an open-source document editor for creating and analyzing targeted proteomics experiments. Bioinformatics, 26(7), 966-968.
+102.	MacLean, D., Burrell, M. A., Studholme, D. J., & Jones, A. M. (2008). PhosCalc: a tool for evaluating the sites of peptide phosphorylation from mass spectrometer data. BMC research notes, 1, 1-9.
+103.	Macleod, M., & Mohan, S. (2019). Reproducibility and rigor in animal-based research. ILAR journal, 60(1), 17-23.
+104.	Manguy, J., Jehl, P., Dillon, E. T., Davey, N. E., Shields, D. C., & Holton, T. A. (2017). Peptigram: a web-based application for peptidomics data visualization. Journal of proteome research, 16(2), 712-719.
+105.	McArdle, A. J., & Menikou, S. (2021). What is proteomics?. Archives of Disease in Childhood-Education and Practice, 106(3), 178-181.
+106.	McCormick, M., Liu, X., Jomier, J., Marion, C., & Ibanez, L. (2014). ITK: enabling reproducible research and open science. Frontiers in neuroinformatics, 8, 13.
+107.	Mendoza, L., Deutsch, E. W., Sun, Z., Campbell, D. S., Shteynberg, D. D., & Moritz, R. L. (2018). Flexible and fast mapping of peptides to a proteome with ProteoMapper. Journal of proteome research, 17(12), 4337-4344.
+108.	Mering, C. V., Huynen, M., Jaeggi, D., Schmidt, S., Bork, P., & Snel, B. (2003). STRING: a database of predicted functional associations between proteins. Nucleic acids research, 31(1), 258-261.
+109.	Mosca, R., Céol, A., & Aloy, P. (2013). Interactome3D: adding structural details to protein networks. Nature methods, 10(1), 47-53.
+110.	Nagaraj N, Alexander Kulak N, Cox J, Neuhauser N, Mayr K, Hoerning O, Vorm O, Mann M: System-wide Perturbation Analysis with Nearly Complete Coverage of the Yeast Proteome by Single-shot Ultra HPLC Runs on a Bench Top Orbitrap. Molecular & Cellular Proteomics. 2012, 11 (3).
+111.	National Academies of Sciences, Engineering, and Medicine. (2019). Reproducibility and replicability in science.
+112.	Nesvizhskii AI, Aebersold R: Interpretation of Shotgun Proteomic Data: The Protein Inference Problem. Molecular & Cellular Proteomics. 2005, 4 (10): 1419-1440.
+113.	Nesvizhskii AI: A survey of computational methods and error rate estimation procedures for peptide and protein identification in shotgun proteomics. J Proteomics. 2010, 73 (11): 2092-2123.
+114.	Nissen, S. B., Magidson, T., Gross, K., & Bergstrom, C. T. (2016). Publication bias and the canonization of false facts. Elife, 5, e21451.
+115.	Obayashi, T., Okamura, Y., Ito, S., Tadaka, S., Motoike, I. N., & Kinoshita, K. (2012). COXPRESdb: a database of comparative gene coexpression networks of eleven species for mammals. Nucleic acids research, 41(D1), D1014-D1020.
+116.	Ong SE, Blagoev B, Kratchmarova I, Kristensen DB, Steen H, Pandey A, Mann M. Stable isotope labeling by amino acids in cell culture, SILAC, as a simple and accurate approach to expression proteomics. Mol Cell Proteomics. 2002;1:376–386.
+117.	Pandey A, Mann M. Proteomics to study genes and genomes. Nature. 2000;405:837–846.
+118.	Peng, R. (2015). The reproducibility crisis in science: A statistical counterattack. Significance, 12(3), 30-32.
+119.	Peng, R. D., & Hicks, S. C. (2021). Reproducible Research: A Retrospective. Annual Review of Public Health, 42(1), 79–93.
+120.	Pereira, R., Oliveira, J., & Sousa, M. (2020). Bioinformatics and Computational Tools for Next-Generation Sequencing Analysis in Clinical Genetics. Journal of Clinical Medicine Research, 9(1). https://doi.org/10.3390/jcm9010132
+121.	Perez-Riverol, Y., & Moreno, P. (2020). Scalable data analysis in proteomics and metabolomics using BioContainers and workflow engines. Proteomics, 20(9), e1900147.
+122.	Perkins, D. N., Pappin, D. J., Creasy, D. M., & Cottrell, J. S. (1999). Probability‐based protein identification by searching sequence databases using mass spectrometry data. ELECTROPHORESIS: An International Journal, 20(18), 3551-3567.
+123.	Pettersen, E. F., Goddard, T. D., Huang, C. C., Couch, G. S., Greenblatt, D. M., Meng, E. C., & Ferrin, T. E. (2004). UCSF Chimera—a visualization system for exploratory research and analysis. Journal of computational chemistry, 25(13), 1605-1612.
+124.	Petyuk, V. A., Gatto, L., & Payne, S. H. (2019). Reproducibility and Transparency by Design. Molecular & Cellular Proteomics: MCP, 18(8 suppl 1), S202–S204.
+125.	Picotti P, Aebersold R: Selected reaction monitoring-based proteomics: workflows, potential, pitfalls and future directions. Nat Meth. 2012, 9 (6): 555-566.
+126.	Picotti P, Bodenmiller B, Mueller LN, Domon B, Aebersold R: Full Dynamic Range Proteome Analysis of S. cerevisiae by Targeted Proteomics. Cell. 2009, 138 (4): 795-806.
+127.	Picotti P, Clement-Ziza M, Lam H, Campbell DS, Schmidt A, Deutsch EW, Rost H, Sun Z, Rinner O, Reiter L, et al.: A complete mass-spectrometric map of the yeast proteome applied to quantitative trait analysis. Nature. 2013, 494 (7436): 266-270.
+128.	Pineau, J., Vincent-Lamarre, P., Sinha,
+129.	Poulos, R. C., Hains, P. G., Shah, R., Lucas, N., Xavier, D., Manda, S. S., Anees, A., Koh, J. M. S., Mahboob, S., Wittman, M., Williams, S. G., Sykes, E. K., Hecker, M., Dausmann, M., Wouters, M. A., Ashman, K., Yang, J., Wild, P. J., deFazio, A., … Zhong, Q. (2020). Strategies to enable large-scale proteomics for reproducible research. Nature Communications, 11(1), 3793.
+130.	Prieto, C., & De Las Rivas, J. (2006). APID: agile protein interaction DataAnalyzer. Nucleic acids research, 34(suppl_2), W298-W302.
+131.	Qi, D., Brownridge, P., Xia, D., Mackay, K., Gonzalez-Galarza, F. F., Kenyani, J., ... & Jones, A. R. (2012). A software toolkit and interface for performing stable isotope labeling and top3 quantification using Progenesis LC-MS. Omics: a journal of integrative biology, 16(9), 489-495.
+132.	Rabilloud T, Lelong C. Two-dimensional gel electrophoresis in proteomics: a tutorial. J Proteomics. 2011;74:1829–1841.
+133.	Rappsilber J, Siniossoglou S, Hurt EC, Mann M. A generic strategy to analyze the spatial organization of multi-protein complexes by cross-linking and mass spectrometry. Anal Chem. 2000;72:267–275.
+134.	Riffle M, Eng J: Proteomics data repositories. Proteomics. 2009, 9 (20): 4653-4663.
+135.	Ross PL, Huang YN, Marchese JN, Williamson B, Parker K, Hattan S, Khainovski N, Pillai S, Dey S, Daniels S, Purkayastha S, Juhasz P, Martin S, Bartlet-Jones M, He F, Jacobson A, Pappin DJ. Multiplexed protein quantitation in Saccharomyces cerevisiae using amine-reactive isobaric tagging reagents. Mol Cell Proteomics. 2004;3:1154–1169.
+136.	Rozanova, S., Uszkoreit, J., Schork, K., Serschnitzki, B., Eisenacher, M., Tönges, L., . . . Marcus, K. (2023). Quality Control-A Stepchild in Quantitative Proteomics: A Case Study for the Human CSF Proteome. Biomolecules, 13(3). https://doi.org/10.3390/biom13030491
+137.	Saeed, F., Pisitkun, T., Hoffert, J. D., Wang, G., Gucek, M., & Knepper, M. A. (2012, October). An efficient dynamic programming algorithm for phosphorylation site assignment of large-scale mass spectrometry data. In 2012 IEEE International Conference on Bioinformatics and Biomedicine Workshops (pp. 618-625). IEEE.
+138.	Samuel, S., & König-Ries, B. (2021). Understanding experiments and research practices for reproducibility: an exploratory study. PeerJ, 9, e11140. https://doi.org/10.7717/peerj.11140
+139.	Sandve, G. K., Nekrutenko, A., Taylor, J., & Hovig, E. (2013). Ten simple rules for reproducible computational research. PLoS Computational Biology, 9(10), e1003285.
+140.	Sapoval, N., Aghazadeh, A., Nute, M. G., Antunes, D. A., Balaji, A., Baraniuk, R., Barberan, C. J., Dannenfelser, R., Dun, C., Edrisi, M., Elworth, R. A. L., Kille, B., Kyrillidis, A., Nakhleh, L., Wolfe, C. R., Yan, Z., Yao, V., & Treangen, T. J. (2022). Current progress and open challenges for applying deep learning across the biosciences. Nature Communications, 13(1), 1728.
+141.	Schulz TC, Swistowska AM, Liu Y, Swistowski A, Palmarini G, Brimble SN, Sherrer E, Robins AJ, Rao MS, Zeng X. A large-scale proteomic analysis of human embryonic stem cells. BMC Genomics. 2007;8:478.
+142.	Schymkowitz, J., Borg, J., Stricher, F., Nys, R., Rousseau, F., & Serrano, L. (2005). The FoldX web server: an online force field. Nucleic acids research, 33(suppl_2), W382-W388.
+143.	Searle, B. C. (2010). Scaffold: a bioinformatic tool for validating MS/MS‐based proteomic studies. Proteomics, 10(6), 1265-1269.
+144.	Shannon, P., Markiel, A., Ozier, O., Baliga, N. S., Wang, J. T., Ramage, D., ... & Ideker, T. (2003). Cytoscape: a software environment for integrated models of biomolecular interaction networks. Genome research, 13(11), 2498-2504.
+145.	Shilov IV, Seymour SL, Patel AA, Loboda A, Tang WH, Keating SP, Hunter CL, Nuwaysir LM, Schaeffer DA. The Paragon Algorithm, a next generation search engine that uses sequence temperature values and feature probabilities to identify peptides from tandem mass spectra. Mol Cell Proteomics. 2007 Sep;6(9):1638-55. doi: 10.1074/mcp.T600050-MCP200. Epub 2007 May 27. PMID: 17533153.
+146.	Shteynberg, D. D., Deutsch, E. W., Campbell, D. S., Hoopmann, M. R., Kusebauch, U., Lee, D., ... & Moritz, R. L. (2019). PTMProphet: Fast and accurate mass modification localization for the trans-proteomic pipeline. Journal of proteome research, 18(12), 4262-4272.
+147.	Stahl-Zeng J, Lange V, Ossola R, Eckhardt K, Krek W, Aebersold R, Domon B. High sensitivity detection of plasma proteins by multiple reaction monitoring of N-glycosites. Mol Cell Proteomics. 2007;6:1809–1817.
+148.	Stark, C., Breitkreutz, B. J., Reguly, T., Boucher, L., Breitkreutz, A., & Tyers, M. (2006). BioGRID: a general repository for interaction datasets. Nucleic acids research, 34(suppl_1), D535-D539.
+149.	Stroggilos, R., Tserga, A., Zoidakis, J., Vlahou, A., & Makridakis, M. (2023). Tissue proteomics repositories for data reanalysis. Mass Spectrometry Reviews.
+150.	Sturm, M., Bertsch, A., Gröpl, C., Hildebrandt, A., Hussong, R., Lange, E., ... & Kohlbacher, O. (2008). OpenMS–an open-source software framework for mass spectrometry. BMC bioinformatics, 9(1), 1-11.
+151.	Tabb, D. L., Fernando, C. G., & Chambers, M. C. (2007). MyriMatch: highly accurate tandem mass spectral peptide identification by multivariate hypergeometric analysis. Journal of proteome research, 6(2), 654-661.
+152.	Tabb, D. L., Vega-Montoto, L., Rudnick, P. A., Variyath, A. M., Ham, A. J., Bunk, D. M., Kilpatrick, L. E., Billheimer, D. D., Blackman, R. K., Cardasis, H. L., Carr, S. A., Clauser, K. R., Jaffe, J. D., Kowalski, K. A., Neubert, T. A., Regnier, F. E., Schilling, B., Tegeler, T. J., Wang, M., Wang, P., … Spiegelman, C. (2010). Repeatability and reproducibility in proteomic identifications by liquid chromatography-tandem mass spectrometry. Journal of proteome research, 9(2), 761–776. https://doi.org/10.1021/pr9006365
+153.	Thomas Cokelaer, Sarah Cohen-Boulakia, Frédéric Lemoine, Reprohackathons: promoting reproducibility in bioinformatics through training, Bioinformatics, Volume 39, Issue Supplement_1, June 2023, Pages i11–i20, https://doi.org/10.1093/bioinformatics/btad227
+154.	Ting, Y. S., Shun, M. C., Peng, C. L., & Yu, C. (2011). ProLuCID: An improved SEQUEST-like algorithm with enhanced sensitivity and specificity. Journal of Proteomics, 75(15), 4123-4133.
+155.	Turner B, Razick S, Turinsky A, Vlasblom J, Crowdy E, Cho E, Morrison K, Donaldson I, Wodak S: iRefWeb: interactive analysis of consolidated protein interaction data and their supporting evidence. Database: the journal of biological databases and curation. 2010, 2010:
+156.	Tyanova, S., Temu, T., Sinitcyn, P., Carlson, A., Hein, M. Y., Geiger, T., ... & Cox, J. (2016). The Perseus computational platform for comprehensive analysis of (prote) omics data. Nature methods, 13(9), 731-740.
+157.	Uniprot Consortium. (2021). UniProt: the universal protein knowledgebase in 2021. Nucleic Acids Research, 49(D1), D480–D489. https://doi.org/10.1093/nar/gkaa1100
+158.	Välikangas, T., Suomi, T., & Elo, L. L. (2017). A comprehensive evaluation of popular proteomics software workflows for label-free proteome quantification and imputation. Briefings in Bioinformatics, 19(6), 1344-1355. https://doi.org/10.1093/bib/bbx054
+159.	Vaudel, M., Burkhart, J. M., Zahedi, R. P., Oveland, E., Berven, F. S., Sickmann, A., & Martens, L. (2015). PeptideShaker enables reanalysis of MS-derived proteomics data sets. Nature biotechnology, 33(1), 22-24.
+160.	Vaudel, M., Venne, A. S., Berven, F. S., Zahedi, R. P., Martens, L., & Barsnes, H. (2014). Shedding light on black boxes in protein identification. Proteomics, 14(9), 1001–1005.
+161.	Vercauteren FG, Bergeron JJ, Vandesande F, Arckens L, Quirion R. Proteomic approaches in brain research and neuropharmacology. Eur J Pharmacol. 2004;500:385–398.
+162.	Verrills NM. Clinical proteomics: present and future prospects. Clin Biochem Rev. 2006;27:99–116.
+163.	Wang, H., Alvarez, S., Hicks, L. M., & Comprehensive Proteomics Resource. (2012). MSOAR 2.0: Incorporating tandem duplicate detection into MS/MS peptide identification. Journal of proteome research, 11(12), 5537-5543.
+164.	Wang, Y., Yang, F., Gritsenko, M. A., Wang, Y., Clauss, T., Liu, T., ... & Camp, D. G. (2011). Reversed-phase chromatography with multiple fraction concatenation strategy for proteome profiling of human MCF10A cells. Proteomics, 11(10), 2019-2026.
+165.	Webb-Robertson, B. J., Matzke, M. M., Jacobs, J. M., Pounds, J. G., & Waters, K. M. (2011). A statistical selection strategy for normalization procedures in LC-MS proteomics experiments through dataset dependent ranking of normalization scaling factors. Proteomics, 11(24), 4736-4741.
+166.	Webb-Robertson, B. J., Wiberg, H. K., Matzke, M. M., Brown, J. N., Wang, J., McDermott, J. E., . . . Waters, K. M. (2015). Review, evaluation, and discussion of the challenges of missing value imputation for mass spectrometry-based label-free global proteomics. J Proteome Res, 14(5), 1993-2001. https://doi.org/10.1021/pr501138h
+167.	Weiss, V., & Bern, M. (2020). Benchmarking Tandem Mass Spectrometry Database Search Algorithms for Next-Generation Sequencing (NGS)-Based Clinical Proteomics. Journal of proteome research, 19(11), 4400-4409.
+168.	Wilkins MR, Sanchez JC, Gooley AA, Appel RD, Humphery-Smith I, Hochstrasser DF, Williams KL. Progress with proteome projects: why all proteins expressed by a genome should be identified and how to do it. Biotechnol Genet Eng Rev. 1996;13:19–50.
+169.	Wiśniewski JR, Mann M: Consecutive Proteolytic Digestion in an Enzyme Reactor Increases Depth of Proteomic and Phosphoproteomic Analysis. Anal Chem. 2012, 84 (6): 2631-2637. 10.1021/ac300006b.
+170.	Wohlgemuth, G., Haldiya, P. K., Willighagen, E., Kind, T., Fiehn, O., & Kothari, S. L. (2010). The Chemical Translation Service—a web-based tool to improve standardization of metabolomic reports. Bioinformatics, 26(20), 2647-2648.
+171.	Wolters DA, Washburn MP, Yates JR 3rd. An automated multidimensional protein identification technology for shotgun proteomics. Anal Chem. 2001;73:5683–5690.
+172.	Wratten, L., Wilm, A., & Göke, J. (2021). Reproducible, scalable, and shareable analysis pipelines with bioinformatics workflow managers. Nature methods, 18(10), 1161-1168.
+173.	Wu, J., Zhang, Y., Zeng, R., & Lipton, M. S. (2007). PAnalyzer: a software tool for protein inference in shotgun proteomics. BMC bioinformatics, 8(1), 1-12.
+174.	Xenarios, I., Salwínski, Ł., Duan, X. J., Higney, P., Kim, S. M., & Eisenberg, D. (2002). DIP, the Database of Interacting Proteins: a research tool for studying cellular networks of protein interactions. Nucleic acids research, 30(1), 303-305.
+175.	Xiao GG, Recker RR, Deng HW. Recent advances in proteomics and cancer biomarker discovery. Clin Med Oncol. 2008;2:63–72.
+176.	Xie, L., Liu, W., Li Q., Chen, S., Xu, M., & Huang, Q. (2016). pLabel: A fast linear algorithm for annotating MS/MS spectra with peptide sequences. Journal of proteome research, 15(2), 633-640.
+177.	Yates III, J. R. (2019). Recent technical advances in proteomics. F1000Research, 8.
+178.	Yoithapprabhunath TR, Nirmal RM, Santhadevy A, Anusushanth A, Charanya D, Rojiluke , Sri Chinthu KK, Yamunadevi A. Role of proteomics in physiologic and pathologic conditions of dentistry: Overview. J Pharm Bioallied Sci. 2015;7:S344–S349.
+179.	Zhang, J., Xin, L., Shan, B., Chen, W., Xie, M., Yuen, D., Zhang, W., Zhang, Z., Lajoie, G. A., & Ma, B. (2012). PEAKS DB: de novo sequencing assisted database search for sensitive and accurate peptide identification. Molecular & cellular proteomics, 11(4), M111-010587.
+180.	Zhang, L., Chen, S., Yang, L., Wang, L., Zhang, B., Wang, Y., & Wang, X. (2012). pLink: a novel method to identify cysteine cross-links in proteins by tandem mass spectrometry. Journal of proteome research, 12(2), 1589-1600.
+181.	Zhang, X., Hines, W. M., Adamec, J., Asara, J. M., & Naylor, S. (2005). REGXLS: a regular expression based algorithm for accurate and confident peptide identifications. Journal of proteome research, 4(2), 358-367.
+182.	Zhang, Y., Wen, Z., Washburn, M. P., & Florens, L. (2010). Refinements to label free proteome quantitation: how to deal with peptides shared by multiple proteins. Analytical chemistry, 82(6), 2272-2281.
+183.	Zhao, X., Wu, J., & Zhang, J. (2018). A fast peptide identification algorithm for shotgun proteomics. Bioinformatics, 34(12), 2129-2135.
+184.	Jones, D. T., Singh, T., Kosciolek, T. & Tetchner, S. MetaPSICOV: combining coevolution methods for accurate prediction of contacts and long range hydrogen bonding in proteins. Bioinformatics 31, 999–1006 (2015).
+185.	Samuel Wieczorek,  Florence Combes, Cosmin Lazar,  Quentin Giai Gianetto,  Laurent Gatto, Alexia Dorffer,  Anne-Marie Hesse,  Yohann Couté, Myriam Ferro,  Christophe Bruley,  and Thomas Burger. Bioinformatics, Volume 33, Issue 1, January 2017,Pages135–136, https://doi.org/10.1093/bioinformatics/btw580

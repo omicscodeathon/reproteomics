@@ -20,7 +20,8 @@ By addressing these objectives, this literature review seeks to provide a compre
 
 
 
-Team members: 
+**Team members:**
+
 Coetzer, K.C(1), Aidoo, A.S(2), Adomako N.A(1,4), Ajiboye, I.O(5,6), Nortey H.(3), Okello, O.I(7), and Awe, O.I(8)
 
 1Department Biomedical Sciences, Division of Molecular Biology and Human Genetics, Stellenbosch University, Cape Town, South Africa

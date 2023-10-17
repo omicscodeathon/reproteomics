@@ -10,7 +10,7 @@ The objective of this literature review is to critically examine the challenges 
 By addressing these objectives, this literature review seeks to provide a comprehensive overview of the challenges and potential solutions related to reproducibility in proteomics research, offering insights into the current state of the field and avenues for improvement.
 
 
-![lit search](https://github.com/omicscodeathon/sickletypes/assets/78590097/9784f67a-5ca3-492a-aa15-6385c362da47)
+                ![lit search](https://github.com/omicscodeathon/sickletypes/assets/78590097/9784f67a-5ca3-492a-aa15-6385c362da47)
 
 
 Team members: 

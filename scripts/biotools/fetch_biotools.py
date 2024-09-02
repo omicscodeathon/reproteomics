@@ -1,9 +1,3 @@
-import requests
-import json
-import argparse
-import logging
-from requests.exceptions import RequestException
-
 # Optional: Setup logging
 import logging  # Import logging module to handle and format log messages
 import requests  # Import requests module for making HTTP requests

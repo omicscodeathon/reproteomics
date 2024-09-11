@@ -1,8 +1,0 @@
-{
-    "input": "/path/to/file.sdrf.tsv",
-    "database": "hrp_contams.fasta",
-    "add_decoys": true,
-    "openms_peakpicking": true,
-    "search_engines": "comet, msgf",
-    "labelling_type": "tmt10plex"
-}

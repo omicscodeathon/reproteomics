@@ -1,5 +1,5 @@
 # Reproducible proteomics
-The lack of reproducible science in proteomics analyses – a bioinformatics perspective
+<p align="justify">The lack of reproducible science in proteomics analyses – a bioinformatics perspective<p>
 
 Objective and aims:
 The objective of this literature review is to critically examine the challenges associated with the complexity and variability of available frameworks in proteomics analyses. Specifically, it aims to:
@@ -14,21 +14,22 @@ By addressing these objectives, this literature review seeks to provide a compre
 
 ![lit search](https://github.com/omicscodeathon/sickletypes/assets/78590097/9784f67a-5ca3-492a-aa15-6385c362da47)
 
-
-**A search for proteomics tools:**
-![image](https://github.com/omicscodeathon/sickletypes/assets/78590097/b92fa6dd-c717-44e6-a36d-7ce50f2d3ac8)
-
-
-
 **Team members:**
 
 Coetzer, K.C(1), Aidoo, A.S(2), Adomako N.A(1,4), Ajiboye, I.O(5,6), Nortey H.(3), Okello, O.I(7), and Awe, O.I(8)
 
-1Department Biomedical Sciences, Division of Molecular Biology and Human Genetics, Stellenbosch University, Cape Town, South Africa
-2Department of Virology, Noguchi Memorial Institute for Medical Research, College of Health Sciences, University of Ghana, Legon, Accra, Ghana.
-3Department of Clinical Pathology, Noguchi Memorial Institute for Medical Research, College of Health Sciences, University of Ghana, Legon, Accra, Ghana.
-4Department of Molecular Medicine, School of Medicine and Dentistry, Kwame Nkrumah   University of Science and Technology, Kumasi, Ghana. 
-5Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.
-6Department of Computer and Information Sciences, College of Science and Technology, Covenant University, Ota, Nigeria.
-7Department of Immunology and Molecular Biology, College of Health Sciences, School of Biomedical Sciences, Makerere University, Kampala, Uganda.
-8African Society for Bioinformatics and Computational Biology, Cape Town, South Africa.
+1. Department Biomedical Sciences, Division of Molecular Biology and Human Genetics, Stellenbosch University, Cape Town, South Africa
+
+2. Department of Virology, Noguchi Memorial Institute for Medical Research, College of Health Sciences, University of Ghana, Legon, Accra, Ghana.
+
+3. Department of Clinical Pathology, Noguchi Memorial Institute for Medical Research, College of Health Sciences, University of Ghana, Legon, Accra, Ghana.
+
+4. Department of Molecular Medicine, School of Medicine and Dentistry, Kwame Nkrumah   University of Science and Technology, Kumasi, Ghana. 
+
+5. Covenant Applied Informatics and Communication Africa Centre of Excellence (CApIC-ACE), Covenant University, Ota, Nigeria.
+
+6. Department of Computer and Information Sciences, College of Science and Technology, Covenant University, Ota, Nigeria.
+
+7. Department of Immunology and Molecular Biology, College of Health Sciences, School of Biomedical Sciences, Makerere University, Kampala, Uganda.
+
+8. African Society for Bioinformatics and Computational Biology, Cape Town, South Africa.

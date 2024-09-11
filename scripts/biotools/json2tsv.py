@@ -1,37 +1,27 @@
-# Import necessary libraries
-import pandas as pd  # Used for handling data in DataFrame format and exporting to CSV/TSV
-import json  # Used for working with JSON data
-import argparse  # Used for creating command-line interfaces
-import logging  # Used for logging messages, useful for debugging and tracking script progress
-from pathlib import Path  # Used for handling file paths in a more reliable way
+import pandas as pd
+import json
+import argparse
+import logging
+from pathlib import Path
 
-# Set up logging to track what's happening in the script
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-# Function to clean text data by removing newlines
 def clean_text(text):
-    # Check if the input is a string
     if isinstance(text, str):
-        return text.replace('\n', ' ')  # Replace newline characters with spaces
-    return text  # If it's not a string, return it as is
+        return text.replace('\n', ' ')
+    return text
 
-# Function to clean a list by joining elements into a string
 def clean_list(lst):
-    # Check if the input is a list
     if isinstance(lst, list):
-        # Join list items into a string, converting dictionaries to JSON strings if needed
         return ', '.join([json.dumps(item) if isinstance(item, dict) else str(item) for item in lst])
-    return lst  # If it's not a list, return it as is
+    return lst
 
-# Function to extract publication details from the 'Publications' field
 def extract_publications(publications):
-    # Check if 'Publications' is a list (common in JSON data)
     if isinstance(publications, list):
         extracted_data = []
-        # Loop through each publication entry in the list
         for pub in publications:
-            if isinstance(pub, dict):  # Ensure each entry is a dictionary
-                doi = pub.get('doi', '')  # Extract DOI, default to empty string if not present
+            if isinstance(pub, dict):
+                doi = pub.get('doi', '')
                 title = pub.get('metadata', {}).get('title', '') if isinstance(pub.get('metadata'), dict) else ''
                 abstract = pub.get('metadata', {}).get('abstract', '').replace('\n', ' ') if isinstance(pub.get('metadata'), dict) else ''
                 extracted_data.append({
@@ -41,8 +31,8 @@ def extract_publications(publications):
                 })
         return extracted_data
     
-    # If 'Publications' is a string, try to split it into DOI, Title, Abstract
     elif isinstance(publications, str) and publications.strip():
+        # If `Publications` is a string, attempt to split it into components
         parts = publications.split(', ')
         if len(parts) >= 3:
             doi = parts[0]
@@ -52,30 +42,30 @@ def extract_publications(publications):
             doi = ''
             title = parts[0] if len(parts) > 0 else ''
             abstract = ', '.join(parts[1:]).replace('\n', ' ') if len(parts) > 1 else ''
+
         return [{
             'DOI': doi,
             'Title': title,
             'Abstract': abstract
         }]
     
-    return []  # Return an empty list if 'Publications' is not in a recognized format
+    return []
 
-# Function to process each entry in the JSON data
 def process_entry(entry):
     processed_entry = {}
-    # Loop through each key-value pair in the entry
     for key, value in entry.items():
-        if key != 'Publications':  # Skip 'Publications' for now, we'll handle it separately
+        if key != 'Publications':  # Skip publications for now
             processed_entry[key] = clean_list(value) if isinstance(value, list) else clean_text(value)
     
-    # Extract publications data from the 'Publications' field
     publications_data = extract_publications(entry.get('Publications', ''))
     return processed_entry, publications_data
 
-# Main function to convert JSON data to a DataFrame and save it as a TSV file
+    
+    publications_data = extract_publications(entry.get('publications', []))
+    return processed_entry, publications_data
+
 def json_to_dataframe(json_file, tsv_file):
     try:
-        # Try to open and load the JSON file
         with open(json_file, 'r') as f:
             data = json.load(f)
     except FileNotFoundError:
@@ -88,7 +78,6 @@ def json_to_dataframe(json_file, tsv_file):
     processed_data = []
     publications_data = []
 
-    # Loop through each entry in the JSON data
     for entry in data:
         logging.info(f"Processing entry: {entry}")
         processed_entry, pub_data = process_entry(entry)
@@ -103,18 +92,17 @@ def json_to_dataframe(json_file, tsv_file):
     logging.info(f"Total processed data: {len(publications_data)} entries.")
 
     if publications_data:
-        result_df = pd.DataFrame(publications_data)  # Create a DataFrame from the processed data
+        result_df = pd.DataFrame(publications_data)
         logging.info(f"DataFrame head: \n{result_df.head()}")
 
         try:
-            result_df.to_csv(tsv_file, sep='\t', index=False)  # Save the DataFrame as a TSV file
+            result_df.to_csv(tsv_file, sep='\t', index=False)
             logging.info(f"File saved successfully as {tsv_file}")
         except Exception as e:
             logging.error(f"Failed to save file: {e}")
     else:
         logging.warning("No data to save. The resulting file will be empty.")
 
-# Arguments on Command-line interface (CLI) part
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Convert JSON data to TSV.')
     parser.add_argument('json_file', type=str, help='The input JSON file.')

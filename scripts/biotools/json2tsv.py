@@ -60,10 +60,6 @@ def process_entry(entry):
     publications_data = extract_publications(entry.get('Publications', ''))
     return processed_entry, publications_data
 
-    
-    publications_data = extract_publications(entry.get('publications', []))
-    return processed_entry, publications_data
-
 def json_to_dataframe(json_file, tsv_file):
     try:
         with open(json_file, 'r') as f:

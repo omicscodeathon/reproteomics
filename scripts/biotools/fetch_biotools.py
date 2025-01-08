@@ -21,19 +21,34 @@ def extract_documentation(documentation):
                 return doc.get("url", "")
     return ""
 
-# Function to extract publication details (DOI, title, and abstract) and format them
+# Function to extract publication details (DOI, title, abstract) and format them
 def extract_publications(publications):
     if isinstance(publications, list):
         extracted = []
+        citations = []
         for pub in publications:
             if isinstance(pub, dict):
                 doi = pub.get("doi", "")
                 metadata = pub.get("metadata", {})
-                title = metadata.get("title", "") if isinstance(metadata, dict) else ""
-                abstract = metadata.get("abstract", "").replace('\n', ' ') if isinstance(metadata, dict) else ""
+
+                # Ensure metadata is not None before accessing its fields
+                if isinstance(metadata, dict):
+                    title = metadata.get("title", "")
+                    abstract = metadata.get("abstract", "").replace('\n', ' ')
+                    year = metadata.get("publicationYear", "")
+                    citation_count = metadata.get("citationCount", 0)  # Default to 0 if no citation count
+                else:
+                    title = ""
+                    abstract = ""
+                    year = ""
+                    citation_count = 0
+
+                # Add the formatted publication data
                 extracted.append(f"{doi}, {title}, {abstract}")
-        return '; '.join(extracted)
-    return publications
+                citations.append(str(citation_count))  # Ensure citation count is converted to a string
+
+        return ', '.join(extracted), ', '.join(citations)  # Return both publication details and citation counts
+    return publications, ""
 
 # Function to join list elements into a string, handling cases where the input is not a list
 def safe_join(lst):
@@ -64,6 +79,7 @@ def fetch_biotools(query):
             break
 
         for tool in tools_on_page:
+            publications, citations = extract_publications(tool.get("publication", []))
             filtered_tool = {
                 "Name": tool.get("name"),
                 "Homepage": tool.get("homepage"),
@@ -71,7 +87,8 @@ def fetch_biotools(query):
                 "Version": tool.get("version"),
                 "Tool Type": safe_join(tool.get("toolType", [])),
                 "Topic": extract_topics(tool.get("topic")),
-                "Publications": extract_publications(tool.get("publication")),
+                "Publications": publications,  # Publications column
+                "Citations": citations,  # Citations column
                 "Documentation": extract_documentation(tool.get("documentation", [])),
                 "Operating System": safe_join(tool.get("operatingSystem", [])),
                 "Language": safe_join(tool.get("language", [])),

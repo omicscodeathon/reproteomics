@@ -1,3 +1,5 @@
+# This script can be used if you want to combine multiple outputs from the fetch_biotools.py and json2tsv.py scripts
+
 # First import necessary libraries
 import pandas as pd  # Data manipulation
 import argparse  # Command-line arguments

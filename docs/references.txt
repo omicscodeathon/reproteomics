@@ -1,4 +1,4 @@
-# References used in the manuscript
+References used in the manuscript
 
 Afzaal, M., Saeed, F., Hussain, M., Shahid, F., Siddeeg, A., & Al‐Farga, A. (2022). Proteomics as a promising biomarker in food authentication, quality and safety: A review. Food Science & Nutrition, 10(7), 2333–2346.
 Agrawal, G. K., Sarkar, A., Righetti, P. G., Pedreschi, R., Carpentier, S., Wang, T., & Rakwal, R. (2013). A decade of plant proteomics and mass spectrometry: Translation of technical advancements to food security and safety issues. Mass Spectrometry Reviews, 32(5), 335–365.

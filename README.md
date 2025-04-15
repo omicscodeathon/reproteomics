@@ -10,9 +10,9 @@ The objective of this literature review is to critically examine the challenges 
 By addressing these objectives, this literature review seeks to provide a comprehensive overview of the challenges and potential solutions related to reproducibility in proteomics research, offering insights into the current state of the field and avenues for improvement.
 
 
-**A literature search for reproducible proteomics analyses:**
+**Bio.tools registry search for reproducible proteomics tools**
 
-![lit search](https://github.com/omicscodeathon/reproteomics/blob/main/figures/reproproteo_filter.drawio.png)
+![lit search](https://github.com/omicscodeathon/reproteomics/blob/main/figures/reproproteo_filter_April2025.png)
 
 **Team members:**
 

@@ -1,20 +1,13 @@
-# Reproducible proteomics
-<p align="justify">The Crisis of Proteomics Reproducibility - A Bioinformatics Perspective<p>
+# <p align="justify">The Crisis of Proteomics Reproducibility - A Bioinformatics Perspective<p>
 
-Objective and aims:
-The objective of this literature review is to critically examine the challenges associated with the complexity and variability of available frameworks in proteomics analyses. Specifically, it aims to:
-* Assess the extent and impact of inherent proteomics data analysis heterogeneity.
-* Evaluate the role of non-standardized protocols and data analysis pipelines in contributing to the lack of reproducibility in proteomics research.
-* Investigate the proposed solution of establishing community-wide efforts to develop standardized protocols and guidelines for data analysis in proteomics, with a focus on its feasibility, effectiveness, and adoption within the scientific community.
-* Develop a recommended scoring system for reproducible proteomics frameworks.
-By addressing these objectives, this literature review seeks to provide a comprehensive overview of the challenges and potential solutions related to reproducibility in proteomics research, offering insights into the current state of the field and avenues for improvement.
+## Abstract
+<p align="justify">The lack of reproducibility in proteomics analyses, when viewed from a bioinformatics perspective, is a multifaceted issue stemming from several related challenges. A primary challenge is the inherent complexity and variability in proteomic datasets. Furthermore, the absence of standardized protocols and analysis pipelines across different laboratories and research groups compounds this problem, resulting in inconsistent practices and results. This review sets out to identify the primary obstacles and underlying causes contributing to the reproducibility crisis in proteomics analyses from a bioinformatics standpoint, while also exploring potential solutions. The review introduces a novel approach to assessing the reproducibility of proteomics data analysis tools. It involves evaluating key factors like documentation, version control, maintenance and community engagement employed by these tools and rating them on a scale of one to three, with three showing the greatest reproducibility. By scrutinizing these elements, developers can pinpoint areas requiring improvement and implement best practices to enhance reproducibility. Alternatively, users can select tools that are more likely to be reproducible for their analyses. This will hopefully facilitate the development of community-driven standards and guidelines for proteomics data analysis. Overall, we show that there is a reproducibility crisis in protein bioinformatics analyses, however, there are several solutions in play to improve this and the field will continue to develop. As it develops, it is essential to prioritize reproducibility and work towards establishing standardized protocols and guidelines for proteomics data analysis.<p>
 
+### **Filtering criteria for proteomics tools extracted from Bio.tools registry**
 
-**Bio.tools registry search for reproducible proteomics tools**
+![Filtering results](https://github.com/omicscodeathon/reproteomics/blob/main/figures/reproproteo_filter_April2025.png)
 
-![lit search](https://github.com/omicscodeathon/reproteomics/blob/main/figures/reproproteo_filter_April2025.png)
-
-**Team members:**
+### **Team members:**
 
 Coetzer, K.C(1), Aidoo, A.S(2), Adomako N.A(1,4), Ajiboye, I.O(5,6), Nortey H.(3), Okello, O.I(7), and Awe, O.I(8)
 

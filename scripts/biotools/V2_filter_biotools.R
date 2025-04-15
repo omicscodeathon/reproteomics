@@ -28,7 +28,7 @@ tools_filtered <- tools_filtered %>%
 tools_filtered <- tools_filtered %>%
   filter(!grepl("None", DOI, ignore.case = TRUE))
 
-# Keep only tools with at least one citation >= 50
+# Keep only tools with citation >= 50
 tools_filtered <- tools_filtered %>%
   mutate(CitationNums = str_extract_all(Citations, "\\d+")) %>%
   mutate(CitationNums = lapply(CitationNums, as.numeric)) %>%

@@ -30,23 +30,23 @@ def extract_publications(publications):
             if isinstance(pub, dict):
                 doi = pub.get("doi", "")
                 metadata = pub.get("metadata", {})
-
+                
                 # Ensure metadata is not None before accessing its fields
                 if isinstance(metadata, dict):
                     title = metadata.get("title", "")
-                    abstract = metadata.get("abstract", "").replace('\n', ' ')
-                    year = metadata.get("publicationYear", "")
-                    citation_count = metadata.get("citationCount", 0)  # Default to 0 if no citation count
+                    abstract = metadata.get("abstract", "").replace('\n', ' ') if isinstance(metadata, dict) else ""
+                    year = metadata.get('publicationYear', '')
+                    citation_count = metadata.get('citationCount', 0)  # Default to 0 if no citation count
                 else:
                     title = ""
                     abstract = ""
                     year = ""
                     citation_count = 0
-
+                
                 # Add the formatted publication data
                 extracted.append(f"{doi}, {title}, {abstract}")
                 citations.append(str(citation_count))  # Ensure citation count is converted to a string
-
+                
         return ', '.join(extracted), ', '.join(citations)  # Return both publication details and citation counts
     return publications, ""
 

@@ -1,125 +1,116 @@
-import requests
-import json
-import argparse
-import logging
-from requests.exceptions import RequestException
-
-# Setup logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# This information was largely obtained from the API reference material for bio.tools (https://biotools.readthedocs.io/en/latest/api_reference.html)
+import requests  # Library to handle HTTP requests
+import json  # Library to handle JSON data
+import argparse  # Library to handle command-line arguments
 
 # Function to extract topic terms (remove URI) and concatenate them into a single string
 def extract_topics(topics):
-    if isinstance(topics, list):
+    if isinstance(topics, list):  # Check if topics is a list
+        # Join all topic terms with a comma, ensuring each topic is a dictionary
         return ', '.join(topic.get("term", "") for topic in topics if isinstance(topic, dict))
-    return topics
+    return topics  # Return topics as is if it's not a list
 
 # Function to extract documentation URL
 def extract_documentation(documentation):
-    if isinstance(documentation, list):
+    if isinstance(documentation, list):  # Check if documentation is a list
         for doc in documentation:
             if isinstance(doc, dict):
-                return doc.get("url", "")
-    return ""
+                return doc.get("url", "")  # Return the URL if present
+    return ""  # Return an empty string if documentation is not a list or if no URL is found
 
-# Function to extract publication details (DOI, title, abstract) and format them
+
+# Function to extract publication details (DOI, title, and abstract) and format them
 def extract_publications(publications):
     if isinstance(publications, list):
         extracted = []
-        citations = []
         for pub in publications:
             if isinstance(pub, dict):
                 doi = pub.get("doi", "")
                 metadata = pub.get("metadata", {})
-                
-                # Ensure metadata is not None before accessing its fields
-                if isinstance(metadata, dict):
-                    title = metadata.get("title", "")
-                    abstract = metadata.get("abstract", "").replace('\n', ' ') if isinstance(metadata, dict) else ""
-                    year = metadata.get('publicationYear', '')
-                    citation_count = metadata.get('citationCount', 0)  # Default to 0 if no citation count
+                title = metadata.get("title", "") if isinstance(metadata, dict) else ""
+
+                # Safely handle the abstract
+                abstract = metadata.get("abstract", "")
+                if abstract is None:
+                    abstract = ""  # Default to an empty string if abstract is None
                 else:
-                    title = ""
-                    abstract = ""
-                    year = ""
-                    citation_count = 0
-                
-                # Add the formatted publication data
+                    abstract = abstract.replace('\n', ' ')  # Replace newlines if the abstract is not None
+
                 extracted.append(f"{doi}, {title}, {abstract}")
-                citations.append(str(citation_count))  # Ensure citation count is converted to a string
-                
-        return ', '.join(extracted), ', '.join(citations)  # Return both publication details and citation counts
-    return publications, ""
+        return '; '.join(extracted)
+    return publications
 
 # Function to join list elements into a string, handling cases where the input is not a list
 def safe_join(lst):
-    if isinstance(lst, list):
-        return ', '.join(str(item) for item in lst)
-    return str(lst)
+    if isinstance(lst, list):  # Check if lst is a list
+        return ', '.join(str(item) for item in lst)  # Join list elements with a comma
+    return str(lst)  # Convert non-list input to a string
 
 # Function to fetch biotools tools based on a query
 def fetch_biotools(query):
-    url = "https://bio.tools/api/tool/"
-    params = {"q": query, "format": "json", "page_size": 150}
-    all_tools = []
-    page = 1
+    url = "https://bio.tools/api/tool/"  # Base URL of the API
+    params = {
+        "q": query,  # Search query parameter
+        "format": "json",  # Response format
+        "page_size": 100,  # Number of results per page
+    }
+
+    all_tools = []  # List to store all fetched tools
+    page = 1  # Initial page number
 
     while True:
-        try:
-            params["page"] = page
-            response = requests.get(url, params=params)
-            response.raise_for_status()  # Raise HTTPError for bad responses
-        except RequestException as e:
-            logging.error(f"Error: Failed to fetch data for page {page}: {e}")
+        params["page"] = page  # Set the current page number in the request parameters
+        response = requests.get(url, params=params)  # Make the API request
+
+        if response.status_code != 200:  # Check if the request was successful
+            print(f"Error: Failed to fetch data for page {page}")
             break
 
-        data = response.json()
-        tools_on_page = data.get("list", [])
+        data = response.json()  # Parse the JSON response
+        tools_on_page = data.get("list", [])  # Get the list of tools on the current page
 
-        if not tools_on_page:
+        if not tools_on_page:  # Break the loop if no more tools are found
             break
 
-        for tool in tools_on_page:
-            publications, citations = extract_publications(tool.get("publication", []))
+        for tool in tools_on_page:  # Iterate over each tool
+            # Filter only the required columns and clean the data
             filtered_tool = {
                 "Name": tool.get("name"),
                 "Homepage": tool.get("homepage"),
-                "Description": tool.get("description", "").replace('\n', ' '),
+                "Description": tool.get("description", "").replace('\n', ' '),  # Remove newlines from the description so that it is one paragraph
                 "Version": tool.get("version"),
                 "Tool Type": safe_join(tool.get("toolType", [])),
                 "Topic": extract_topics(tool.get("topic")),
-                "Publications": publications,  # Publications column
-                "Citations": citations,  # Citations column
+                "Publications": extract_publications(tool.get("publication")),
+                "Operation": safe_join(tool.get("operation", [])),
+                "Input": safe_join(tool.get("input", [])),
+                "Output": safe_join(tool.get("output", [])),
                 "Documentation": extract_documentation(tool.get("documentation", [])),
                 "Operating System": safe_join(tool.get("operatingSystem", [])),
                 "Language": safe_join(tool.get("language", [])),
-                "Accessibility": safe_join(tool.get("accessibility", "")),
                 "License": safe_join(tool.get("license", []))
             }
-            all_tools.append(filtered_tool)
+            all_tools.append(filtered_tool)  # Add the filtered tool to the list
 
-        page += 1
+        page += 1  # Move to the next page
 
-    return all_tools
+    return all_tools  # Return the list of all fetched tools
 
 # Function to save the fetched tools to a JSON file
 def save_to_file(tools, filename):
-    try:
-        with open(filename, 'w') as f:
-            json.dump(tools, f, indent=4)
-        logging.info(f"Data saved to {filename}")
-    except IOError as e:
-        logging.error(f"Error: Could not write to file {filename}: {e}")
+    with open(filename, 'w') as f:  # Open the file in write mode
+        json.dump(tools, f, indent=4)  # Write the tools to the file in JSON format with indentation
 
-# Main function to parse arguments and execute the script
-def main():
+# Checks if the script is being run directly by Python interpreter as main program or if imported as a module into another script
+if __name__ == "__main__":
+    # Set up argument parsing
     parser = argparse.ArgumentParser(description='Fetch tools from bio.tools.')
-    parser.add_argument('query', type=str, help='The search query string.')
-    parser.add_argument('output', type=str, help='The output JSON file.')
-    args = parser.parse_args()
+    parser.add_argument('query', type=str, help='The search query string.')  # Argument for the search query
+    parser.add_argument('output', type=str, help='The output JSON file.')  # Argument for the output file
 
+    args = parser.parse_args()  # Parse the command-line arguments
+
+    # Fetch the tools using the provided query and save them to the specified output file
     biotools = fetch_biotools(args.query)
     save_to_file(biotools, args.output)
-    logging.info(f"Total {len(biotools)} tools fetched.")
-
-if __name__ == "__main__":
-    main()
+    print(f"Total {len(biotools)} analysis tools fetched.")  # Print the total number of fetched tools

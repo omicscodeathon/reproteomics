@@ -7,6 +7,29 @@
 
 ![Filtering results](https://github.com/omicscodeathon/reproteomics/blob/main/figures/reproproteo_filter_April2025.png)
 
+### How to reproduce this study
+
+**Steps:**
+
+1. Fetch the bio.tools metadata using keyword/s of interest using fetch_biotools.py (V1 or V2). If using multiple terms, separate each term by a comma e.g. protein,peptide,PPI etc. The Python script saves the file in json format.
+
+2. Convert the json file to a tsv file using json2tsv.py (V1 or V2)
+
+3. Filter the tsv file using filter_biotools.R (V1 or V2). You can adjust any of the filtering steps for your specific use.
+
+4. Manually go through your tools and score each one using the criteria (reproteomics/output
+/scoring_criteria.pdf). Use the exact descriptions given in the table to ensure that there are no issue with the scoring.
+
+5. Score the filtered tool table using scoring_tools.R. These scores are based on the ten criteria associated with reproducibility.
+
+### Differences between version 1 vs. version 2 of scripts
+
+1. fetch_biotools.py: V1 does not extract citation information. V2 extracts citation information based on publications listed in bio.tools. 
+
+2. json2tsv.py: V1 does not include citation information. V2 does include citation information.
+
+3. filter_biotools.py: V1 does not filter the citations whereas V2 does. 
+
 ### **Team members:**
 
 Coetzer, K.C(1), Aidoo, A.S(2), Adomako N.A(1,4), Ajiboye, I.O(5,6), Nortey H.(3), Okello, O.I(7), and Awe, O.I(8)
